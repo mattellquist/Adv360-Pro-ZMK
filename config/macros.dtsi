@@ -2,13 +2,13 @@ macro_csv: macro_csv{
 compatible = "zmk,behavior-macro";
 label = "macro_csv";
 #binding-cells = <0>;
-bindings = <&kp K_PASTE>;
+bindings = <&kp C_AC_PASTE>;
 };
 macro_csc: macro_csc{
 compatible = "zmk,behavior-macro";
 label = "macro_csc";
 #binding-cells = <0>;
-bindings = <&kp K_COPY>;
+bindings = <&kp C_AC_COPY>;
 };
 macro_printscreen: macro_printscreen{
 compatible = "zmk,behavior-macro";
