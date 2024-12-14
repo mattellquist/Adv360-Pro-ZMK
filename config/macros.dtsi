@@ -1,3 +1,9 @@
+macro_cs: macro_cs{
+compatible = "zmk,behavior-macro";
+label = "macro_cs";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp SPACE>;
+};
 macro_at: macro_at{
 compatible = "zmk,behavior-macro";
 label = "macro_at";
