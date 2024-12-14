@@ -1,3 +1,9 @@
+macro_csc: macro_csc{
+compatible = "zmk,behavior-macro";
+label = "macro_csc";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_SHIFT>, <&kp C>;
+};
 macro_printscreen: macro_printscreen{
 compatible = "zmk,behavior-macro";
 label = "macro_printscreen";
