@@ -1,3 +1,9 @@
+macro_at: macro_at{
+compatible = "zmk,behavior-macro";
+label = "macro_at";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp TAB>;
+};
 macro_csv: macro_csv{
 compatible = "zmk,behavior-macro";
 label = "macro_csv";
